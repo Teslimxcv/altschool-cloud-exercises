@@ -1,0 +1,27 @@
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a00:27ff:fe7c:fb76  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:7c:fb:76  txqueuelen 1000  (Ethernet)
+        RX packets 36376  bytes 23481794 (23.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 17057  bytes 1607206 (1.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.56.3  netmask 255.255.255.0  broadcast 192.168.56.255
+        inet6 fe80::a00:27ff:fef1:cc5c  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:f1:cc:5c  txqueuelen 1000  (Ethernet)
+        RX packets 1037  bytes 280581 (280.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 885  bytes 165540 (165.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 326  bytes 28860 (28.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 326  bytes 28860 (28.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
