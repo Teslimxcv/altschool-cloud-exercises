@@ -1,6 +1,6 @@
 - name: deploy
   become: true
-  hosts: slave
+  hosts: SLAVE
   vars_files:
     - vars/main.yml
   roles:
@@ -8,7 +8,7 @@
     - apache2
     - php
     - composer
-#     - mysql
     - geerlingguy.mysql
+    - pgsql
     - deploy
     
